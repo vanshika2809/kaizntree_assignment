@@ -1,0 +1,50 @@
+/* src/styles/CreateAccount.css */
+.create-account-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4; /* Use the same background color as the login page for consistency */
+  }
+  
+  .create-account-container form {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 320px;
+  }
+  
+  .create-account-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensures padding doesn't affect the total width */
+  }
+  
+  .create-account-container button {
+    width: 100%;
+    background-color: #333; /* Adjust the color to match the image */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  }
+  
+  /* Adjust the focus styles to highlight the input fields when active */
+  .create-account-container input:focus {
+    border-color: #a3a3a3; /* Lighter border for focused input */
+    outline: none; /* Remove default focus outline */
+  }
+  
+  /* Add hover effect for the button */
+  .create-account-container button:hover {
+    background-color: #000; /* Slightly darker button background on hover */
+  }
+  

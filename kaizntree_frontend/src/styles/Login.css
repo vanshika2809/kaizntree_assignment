@@ -1,0 +1,78 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.login-logo {
+  margin-bottom: 30px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.input-group input {
+  border: none;
+  outline: none;
+  padding: 10px;
+  flex-grow: 1;
+}
+
+.input-group .faUser,
+.input-group .faLock {
+  margin-right: 10px;
+}
+
+.login-btn,
+.create-account-btn {
+  background-color: #333; /* Adjust the color to match the image */
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.create-account-btn {
+  background-color: #f3f3f3;
+  color: #333;
+}
+
+.forgot-password {
+  display: block;
+  margin-top: 10px;
+  color: #333;
+}
+
+.login-box {
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background: #fff;
+}
+
+.login-btn:hover {
+  background-color: #000;
+}
+
+/* Adjustments may be needed to match the exact image styling */
+
+  
